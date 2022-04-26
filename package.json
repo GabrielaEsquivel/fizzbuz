@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/GabrielaEsquivel/fizzbuz/issues"
   },
-  "homepage": "https://github.com/GabrielaEsquivel/fizzbuz#readme"
+  "homepage": "https://github.com/GabrielaEsquivel/fizzbuz#readme",
+  "devDependencies": {
+    "jest": "^28.0.0"
+  }
 }
