@@ -3,13 +3,13 @@
 Práctica 1 - Semana 4 - Backend NodeJS - LaunchX.
 
 
-##### ***¿Qué es Fizzbuz?***
+### ***¿Qué es Fizzbuz?***
 
 Fizz Buzz es un juego de palabras grupales para que los niños les enseñen sobre la división.
 Los jugadores se turnan para contar de forma incremental, reemplazando cualquier número divisible por tres con la palabra "fizz", y cualquier número divisible por cinco con la palabra "buzz".
 
 
-##### ***Objetivo del proyecto.***
+### ***Objetivo del proyecto.***
 
 Refactorizando el código proporcionado para la práctica, cubrir las necesidades de los requerimientos enlistados, los cuales consisten en:
 
@@ -18,7 +18,7 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
 | 1     | Refactorizar el código legado en los siguientes<br />determinantes:<br />1. Obtener la lista de explorers que solo están en node.<br />2. Obtener la cantidad de explorers en el curso de node.<br />3. Obtener la lista de los usuarios de github de los explorers.<br />4. Crear una validación para los explorers de Fizzbuzz, dejando <br />todo en una misma función en vez de validarlo de manera independiente. | 1.![1651198341851.png](image/README/1651198341851.png)<br />2.![1651198355460.png](image/README/1651198355460.png)<br /><br />3.<br />![1651198400587.png](image/README/1651198400587.png)<br />4.<br />![1651198311220.png](image/README/1651198311220.png) |
 | 2.    | Creación de una API que consuma los servicios desarrollados.                                                                                                                                                                                                                                                                                                                                                              | En Proceso.                                                                                                                                                                                                                                          |
 
-##### ***Estructura del Proyecto.***
+### ***Estructura del Proyecto.***
 
 **fizzbuz** es la raíz del proyecto.
 
@@ -37,7 +37,7 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
     del proyecto.
 
 
-##### **Dependencias**
+### **Dependencias**
 
 Las dependencias instaladas en el proyecto se enlistan a continuación:
 
