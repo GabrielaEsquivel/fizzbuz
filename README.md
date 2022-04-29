@@ -2,7 +2,6 @@
 
 Práctica 1 - Semana 4 - Backend NodeJS - LaunchX.
 
-
 ### ***¿Qué es Fizzbuz?***
 
 Fizz Buzz es un juego de palabras grupales para que los niños les enseñen sobre la división.
@@ -33,10 +32,16 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
 
     -*services* : Carpeta en donde se almacenan los servicios requeridos para el aplicativo.
 
-    -*utils*: Carpeta en donde se encuentran algunos utils, funciones, que se ocupan a lo largo 
+    -*utils*: Carpeta en donde se encuentran algunos utils, funciones, que se ocupan a lo largo
 
     del proyecto.
 
+
+### Github Actions.
+
+Adicionalmente, este proyecto implementa Github Actions, cuyo yml puede ser consultado en el directorio .github/workflows.
+
+Dicho yml fue ajustado para la versión de node con la cual se desarrolló el proyecto (17.7.1) y la versión de jest compatible con esta misma. 
 
 ### **Dependencias**
 
