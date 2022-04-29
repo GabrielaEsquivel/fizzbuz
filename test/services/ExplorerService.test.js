@@ -21,6 +21,6 @@ describe("Test para ExplorerService", () =>{
     test("Requerimiento 3: Obtener los usernames de los explorers en una missión determinada", ()=>{
         const explorersUsernames = ExplorerService.getExplorersUsernamesByMission(explorers, "node");
         console.log("explorers", explorersUsernames);
-        expect(explorersUsernames[0]).toBe('ajolonauta15');
-    })
+        expect(explorersUsernames[0]).toBe("ajolonauta15");
+    });
 });
