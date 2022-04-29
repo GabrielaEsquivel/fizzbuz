@@ -8,6 +8,7 @@ Práctica 1 - Semana 4 - Backend NodeJS - LaunchX.
 Fizz Buzz es un juego de palabras grupales para que los niños les enseñen sobre la división.
 Los jugadores se turnan para contar de forma incremental, reemplazando cualquier número divisible por tres con la palabra "fizz", y cualquier número divisible por cinco con la palabra "buzz".
 
+![1651199366187.png](image/README/1651199366187.png)
 
 ### ***Objetivo del proyecto.***
 
@@ -41,14 +42,6 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
 
 Las dependencias instaladas en el proyecto se enlistan a continuación:
 
-* ***express**:* es un framework escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS que 
-
-permite crear aplicaciones web.
-
-* ***linter*:** es una herramienta enfocada en el proceso de "linting" para Javascript, examinando el mismo
-
-dado a unas normas y criterios que pueden ser personalizables. 
-
-* ***jest***: es un marco de prueba para Javascript que permite el desarrollo de pruebas dentro de las 
-
-aplicaciones.
+* ***express**:* es un framework escrito en JavaScript y alojado dentro del entorno de ejecución NodeJS que permite crear aplicaciones web.
+* ***linter*:** es una herramienta enfocada en el proceso de "linting" para Javascript, examinando el mismo dado a unas normas y criterios que pueden ser personalizables.
+* ***jest***: es un marco de prueba para Javascript que permite el desarrollo de pruebas dentro de las aplicaciones.
