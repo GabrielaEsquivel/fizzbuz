@@ -20,7 +20,13 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
 
 ### ***Documentación API.***
 
-Para conocer más en cuanto a las HTTPS request implementadas, puedes visitar este [enlace]() de la documentación generada con Postman y también encontrarás algunos ejemplos de implementación.
+Para conocer más en cuanto a las HTTPS request implementadas, puedes visitar este [enlace](https://documenter.getpostman.com/view/20762518/UyrGAtjG) de la documentación generada con Postman y también encontrarás algunos ejemplos de implementación.
+
+Si no puedes ver el enlace, pega la siguiente url en tu navegador:
+
+```
+https://documenter.getpostman.com/view/20762518/UyrGAtjG
+```
 
 ### ***Estructura del Proyecto.***
 
