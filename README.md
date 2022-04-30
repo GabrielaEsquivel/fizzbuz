@@ -18,6 +18,10 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
 | 1     | Refactorizar el código legado en los siguientes<br />determinantes:<br />1. Obtener la lista de explorers que solo están en node.<br />2. Obtener la cantidad de explorers en el curso de node.<br />3. Obtener la lista de los usuarios de github de los explorers.<br />4. Crear una validación para los explorers de Fizzbuzz, dejando <br />todo en una misma función en vez de validarlo de manera independiente. | 1.![1651198341851.png](image/README/1651198341851.png)<br />2.![1651198355460.png](image/README/1651198355460.png)<br /><br />3.<br />![1651198400587.png](image/README/1651198400587.png)<br />4.<br />![1651198311220.png](image/README/1651198311220.png) |
 | 2.    | Creación de una API que consuma los servicios desarrollados.                                                                                                                                                                                                                                                                                                                                                              | En Proceso.                                                                                                                                                                                                                                          |
 
+### ***Documentación API.***
+
+Para conocer más en cuanto a las HTTPS request implementadas, puedes visitar este [enlace]() de la documentación generada con Postman y también encontrarás algunos ejemplos de implementación.
+
 ### ***Estructura del Proyecto.***
 
 **fizzbuz** es la raíz del proyecto.
@@ -36,12 +40,11 @@ Refactorizando el código proporcionado para la práctica, cubrir las necesidade
 
     del proyecto.
 
-
 ### Github Actions.
 
 Adicionalmente, este proyecto implementa Github Actions, cuyo yml puede ser consultado en el directorio .github/workflows.
 
-Dicho yml fue ajustado para la versión de node con la cual se desarrolló el proyecto (17.7.1) y la versión de jest compatible con esta misma. 
+Dicho yml fue ajustado para la versión de node con la cual se desarrolló el proyecto (17.7.1) y la versión de jest compatible con esta misma.
 
 ### **Dependencias**
 
