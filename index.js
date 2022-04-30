@@ -46,6 +46,14 @@ app.get('/v1/explorers/amount/:mission', (req, res) => {
 
 });
 
+app.get('/v1/explorers/usernames/:mission', (req, res) => {
+    // Obtener la lista de username en una misión
+    const { mission }= req.params;
+    const amountOfExplorers = ExplorerService.getExplorersUsernamesByMission(explorers, mission);
+    // HTTP STATUS: 200 successful 
+    res.status(200).json(amountOfExplorers)
+
+});
 
 
 
