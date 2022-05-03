@@ -14,5 +14,9 @@ describe("Test para ExplorerController", () =>{
     test("Requerimiento 3: Obtener los usernames de los explorers en una missión determinada", ()=>{
         const explorersUsernames = ExplorerController.getExplorersUsernamesByMission("node");
         expect(explorersUsernames).toContain("ajolonauta1");
-    });
+    }),
+    test("Requerimiento 4: Obtener el score de validación a partir de un número", ()=>{
+        const score = ExplorerController.applyValidationInNumber(3);
+        expect(score).toBe("FIZZ");
+    })
 });
