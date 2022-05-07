@@ -52,7 +52,27 @@ Adicionalmente, este proyecto implementa Github Actions, cuyo yml puede ser cons
 
 Dicho yml fue ajustado para la versión de node con la cual se desarrolló el proyecto (17.7.1) y la versión de jest compatible con esta misma.
 
-### **Dependencias**
+### Sobre el bot implementado.
+
+Un “bot”, término que proviene de acortar la palabra “robot”, es un programa que realiza tareas repetitivas, predefinidas y automatizadas. Los bots informáticos y los bots de Internet son herramientas digitales.
+
+¿Qué funciones cumplen estos programas? La respuesta depende de la clase de bot.
+
+Para este proyecto se implementó un bot conversacional. Eso quiere decir que está diseñado para brindar respuestas programadas a frases específicas. En este caso números y dos palabras clave: java y node.
+
+Telegram cuenta con un **[Bot Father](https://telegram.me/BotFather)**, es decir, un bot que controla a todos los bots que se creen en dicha plataforma.
+
+Con Bot Father se crea y configura inicalmente el bot deseado y es posible enlazarlo con alguna API a través de su paquete npm (telegram api bot).
+
+En el archivo **lib/bot.js** se encuentra la configuración del mismo haciendo uso del token proporcionado por Both Father de Telegram para enlazar el proyecto actual con el servicio del bot.
+
+Los servicios disponibles hasta el momento para el bot son:
+
+ApplyValidationInNumber() que recibe un número cualquiera para determinar si se devuelve una cadena (string) que contenga la palabra FIZZ | BUZZ | FIZZBUZZ o, recibe una cadena en específico que contega algún valor de java | node y devuelve una lista de los explorers enlistados en dicha misión.
+
+Se anexan algunos ejemplos validados del bot.
+
+### **Dependencias.**
 
 Las dependencias instaladas en el proyecto se enlistan a continuación:
 
